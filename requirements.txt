@@ -1,0 +1,6 @@
+streamlit
+ai71
+geocoder
+requests
+folium
+streamlit-folium

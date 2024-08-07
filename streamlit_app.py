@@ -86,7 +86,7 @@ For each chronic disease, provide common symptoms and recommend the appropriate 
 Your role is to provide preliminary guidance similar to a pre-checkup consultation with a nurse, helping users understand their symptoms and the appropriate type of specialist to consult for further evaluation make sure to respond uniquely and at the end say here are nearby hospitals you visit.
 """
 
-AI71_API_KEY = os.environ.get("AI71_API_KEY", "")
+AI71_API_KEY = st.secrets['API']['KEY']
 
 def get_falcon_response(messages):
     ai71 = AI71(AI71_API_KEY)
