@@ -83,7 +83,7 @@ For each chronic disease, provide common symptoms and recommend the appropriate 
 - Your response must answer the user query only.
 - Remind users to consult a healthcare professional for a definitive diagnosis and personalized medical advice.
 
-Your role is to provide preliminary guidance similar to a pre-checkup consultation with a nurse, helping users understand their symptoms and the appropriate type of specialist to consult for further evaluation make sure to respond uniquely and at the end say here are nearby hospitals you visit.
+Your role is to provide preliminary guidance similar to a pre-checkup consultation with a nurse, helping users understand their symptoms and the appropriate type of specialist to consult for further evaluation make sure to respond uniquely.
 """
 
 AI71_API_KEY = st.secrets['API']['KEY']
